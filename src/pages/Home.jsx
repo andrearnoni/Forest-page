@@ -3,6 +3,7 @@ import DateTimeComponent from "../components/DateTimeComponent";
 import NavDesktop from "../components/NavDesktop";
 import Hero from "../components/Hero";
 import AccommodationSection from "../components/AccommodationSection";
+import EventsSection from "../components/EventsSection";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <NavDesktop />
       <Hero />
       <AccommodationSection />
+      <EventsSection />
     </div>
   );
 }
