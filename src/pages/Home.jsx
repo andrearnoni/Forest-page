@@ -7,6 +7,7 @@ import EventsSection from "../components/EventsSection";
 import ExperiencesSection from "../components/ExperiencesSection";
 import CycleSection from "../components/CycleSection";
 import ContactSection from "../components/ContactSection";
+import PartnersSection from "../components/PartnersSection";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <ExperiencesSection />
       <CycleSection />
       <ContactSection />
+      <PartnersSection />
     </div>
   );
 }
