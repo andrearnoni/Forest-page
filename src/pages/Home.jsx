@@ -6,6 +6,7 @@ import AccommodationSection from "../components/AccommodationSection";
 import EventsSection from "../components/EventsSection";
 import ExperiencesSection from "../components/ExperiencesSection";
 import CycleSection from "../components/CycleSection";
+import ContactSection from "../components/ContactSection";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <EventsSection />
       <ExperiencesSection />
       <CycleSection />
+      <ContactSection />
     </div>
   );
 }
