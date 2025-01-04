@@ -4,6 +4,7 @@ import NavDesktop from "../components/NavDesktop";
 import Hero from "../components/Hero";
 import AccommodationSection from "../components/AccommodationSection";
 import EventsSection from "../components/EventsSection";
+import ExperiencesSection from "../components/ExperiencesSection";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Hero />
       <AccommodationSection />
       <EventsSection />
+      <ExperiencesSection />
     </div>
   );
 }
