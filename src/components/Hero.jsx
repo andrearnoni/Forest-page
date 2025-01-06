@@ -1,16 +1,24 @@
-import React from "react";
-import forestHero from "../img/floresta.jpg";
+import { useContext } from "react";
+import { Context } from "../context/Provider";
 import wildbeast from "../img/parceiros/wildbeast.svg";
 
 function Hero() {
+  const { video } = useContext(Context);
+
   return (
     <main className="container">
       <div className="relative px-8 pb-8 pt-64 max-sm:pt-12 max-sm:px-4 bg-gradient-to-t from-verde-950/80 text-white rounded-2xl overflow-hidden">
-        <img
-          className="absolute inset-0 -z-10 size-full object-cover"
-          src={forestHero}
-          alt="floresta"
-        />
+        <video
+          id="video"
+          className="absolute inset-0 -z-10 size-full object-cover animate-fade-in"
+          muted
+          autoPlay
+          playsInline
+          loop
+          width="1280"
+          height="720"
+          src={video}
+        ></video>
         <div className="bg-verde-950 max-sm:bg-verde-950/60 inline-flex max-sm:flex max-sm:flex-col max-sm:gap-2 mb-8 gap-8 items-center max-sm:items-start py-1 pl-4 pr-1 max-sm:p-4 rounded-full max-sm:rounded-xl">
           vagas para dezembro abertas
           <a
