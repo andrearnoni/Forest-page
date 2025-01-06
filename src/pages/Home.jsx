@@ -8,6 +8,7 @@ import ExperiencesSection from "../components/ExperiencesSection";
 import CycleSection from "../components/CycleSection";
 import ContactSection from "../components/ContactSection";
 import PartnersSection from "../components/PartnersSection";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <CycleSection />
       <ContactSection />
       <PartnersSection />
+      <Footer />
     </div>
   );
 }

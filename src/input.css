@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-verde-800 font-sans mb-96;
+  @apply bg-verde-800 font-sans;
 }
