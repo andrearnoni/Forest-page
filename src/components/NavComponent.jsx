@@ -10,14 +10,14 @@ function NavComponent() {
       <nav
         id="mobile-menu"
         onClick={() => {
-          document.getElementById("mobile-menu").classList.toggle("hidden") ||
-            document.getElementById("mobile-menu").classList.toggle("flex");
+          document.getElementById("mobile-menu").classList.add("hidden") ||
+            document.getElementById("mobile-menu").classList.remove("flex");
         }}
         className="hidden lg:block items-center z-40 max-lg:fixed max-lg:w-full max-lg:inset-0"
       >
         <div className="fixed lg:hidden inset-0 bg-verde-950/40 backdrop-blur-md"></div>
         <ul className="max-lg:absolute max-lg:p-8 max-lg:w-full max-lg:divide-y-2 max-lg:divide-white/10 text-white text-2xl lg:text-xl lg:flex lg:flex-wrap lg:gap-8 max-lg:z-50">
-          <li>
+          <li className="animate-slide-in opacity-0 animate-1">
             <a
               className="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#acomodacoes"
@@ -25,7 +25,7 @@ function NavComponent() {
               Acomodações
             </a>
           </li>
-          <li>
+          <li className="animate-slide-in opacity-0 animate-2">
             <a
               className="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#eventos"
@@ -33,7 +33,7 @@ function NavComponent() {
               Eventos
             </a>
           </li>
-          <li>
+          <li className="animate-slide-in opacity-0 animate-3">
             <a
               className="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#experiencias"
@@ -41,7 +41,7 @@ function NavComponent() {
               Experiências
             </a>
           </li>
-          <li>
+          <li className="animate-slide-in opacity-0 animate-4">
             <a
               className="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8"
               href="#contato"

@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from "tailwindcss/plugin";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -13,6 +15,20 @@ export default {
       },
     },
     extend: {
+      keyframes: {
+        slideIn: {
+          "0%": { opacity: 0, transform: "translateX(-20px)" },
+          "100%": { opacity: 1, transform: "translateX(0)" },
+        },
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
+      animation: {
+        ["slide-in"]: "slideIn 0.4s ease-in-out forwards",
+        ["fade-in"]: "fadeIn 0.4s ease-in-out forwards",
+      },
       colors: {
         verde: {
           200: "#ACEF75",
@@ -26,5 +42,19 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(({ addUtilities }) => {
+      function animationDelay() {
+        const delays = {};
+        for (let i = 1; i <= 12; i++) {
+          delays[`.animate-${i}`] = {
+            "animation-delay": `${i * 100}ms`,
+          };
+        }
+        return delays;
+      }
+
+      addUtilities(animationDelay());
+    }),
+  ],
 };
