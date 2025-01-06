@@ -57,7 +57,7 @@ function NavComponent() {
           document.getElementById("mobile-menu").classList.toggle("hidden") ||
             document.getElementById("mobile-menu").classList.toggle("flex");
         }}
-        className="flex items-center gap-3 bg-verde-400 text-verde-900 py-2 px-4 rounded-full lg:hidden"
+        className="btn flex items-center gap-3 text-verde-900 py-1 rounded-full lg:hidden"
       >
         Menu
         <span className="h-3 w-4 flex flex-col justify-between *:h-0.5 *:rounded-md *:bg-verde-800">

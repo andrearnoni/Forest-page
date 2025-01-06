@@ -8,7 +8,7 @@ function AccommodationSection() {
     //Código escrito em mobile first
     <section
       id="acomodacoes"
-      className="container grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
+      className="radial-gradient container grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
     >
       <div className="content-end bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain bg-left-bottom">
         <h2 className="text-white mb-8 text-4xl font-serif lg:text-5xl">
@@ -16,24 +16,24 @@ function AccommodationSection() {
         </h2>
         <ul className="text-gray-200 *:flex *:items-center *:gap-4 space-y-4 sm:text-xl">
           <li>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             Experimente a natureza de perto
           </li>
           <li>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             Conecte-se com a natureza
           </li>
           <li>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             Desconecte-se do digital
           </li>
           <li>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>Observe
-            a vida selvagem
+            <span className="h-0.5 w-6 neon inline-block"></span>Observe a vida
+            selvagem
           </li>
           <li>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>Escolha
-            a sua cabine preferida
+            <span className="h-0.5 w-6 neon inline-block"></span>Escolha a sua
+            cabine preferida
           </li>
         </ul>
       </div>

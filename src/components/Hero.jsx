@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Context } from "../context/Provider";
 import wildbeast from "../img/parceiros/wildbeast.svg";
+import seta from "../img/seta.svg";
 
 function Hero() {
   const { video } = useContext(Context);
@@ -21,11 +22,9 @@ function Hero() {
         ></video>
         <div className="bg-verde-950 max-sm:bg-verde-950/60 inline-flex max-sm:flex max-sm:flex-col max-sm:gap-2 mb-8 gap-8 items-center max-sm:items-start py-1 pl-4 pr-1 max-sm:p-4 rounded-full max-sm:rounded-xl">
           vagas para dezembro abertas
-          <a
-            className="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
-            href=""
-          >
+          <a className="btn inline-flex items-center gap-2" href="#contato">
             Reserve Hoje
+            <img src={seta} alt="" />
           </a>
         </div>
         <h1 className="font-serif text-balance mb-20 max-sm:mb-8 max-w-screen-sm text-5xl max-sm:text-4xl">

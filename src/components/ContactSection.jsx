@@ -16,19 +16,19 @@ function ContactSection() {
         </p>
         <div className="grid gap-4">
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">Base</h2>
             <p className="text-gray-300">
               Rua da Mata, 123 - Floresta Nacional - SP
             </p>
           </div>
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">Email</h2>
             <p className="text-gray-300">contato@forest.com</p>
           </div>
           <div>
-            <span className="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span className="h-0.5 w-6 neon inline-block"></span>
             <h2 className="mb-2 text-2xl text-verde-300 font-serif">
               Telefone
             </h2>
@@ -44,24 +44,14 @@ function ContactSection() {
           <label className="text-white" htmlFor="nome">
             Nome
           </label>
-          <input
-            id="nome"
-            name="nome"
-            className="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
-            type="text"
-          />
+          <input id="nome" name="nome" className="input" type="text" />
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="grid gap-1">
             <label className="text-white" htmlFor="email">
               Email
             </label>
-            <input
-              id="email"
-              name="email"
-              className="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
-              type="email"
-            />
+            <input id="email" name="email" className="input" type="email" />
           </div>
           <div className="grid gap-1">
             <label className="text-white" htmlFor="telefone">
@@ -70,7 +60,7 @@ function ContactSection() {
             <input
               id="telefone"
               name="telefone"
-              className="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
+              className="input"
               placeholder="(11) 00000-0000"
               type="text"
             />
@@ -84,13 +74,11 @@ function ContactSection() {
             id="mensagem"
             name="mensagem"
             rows={5}
-            className="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900 resize-none"
+            className="input resize-none"
             type="text"
           ></textarea>
         </div>
-        <button className="place-self-start bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full">
-          Enviar Email
-        </button>
+        <button className="btn place-self-start">Enviar Email</button>
       </form>
     </section>
   );

@@ -14,7 +14,7 @@ function CycleSection() {
       </h2>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
         <div className="grid gap-4 flex-1 bg-verde-900 p-6 sm:p-8 rounded-xl sm:hover:-translate-y-2 transition-transform">
-          <div className="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <div className="neon size-10 flex items-center justify-center">
             <img src={amanhecer} alt="" />
           </div>
           <h3 className="font-serif text-white text-2xl">Amanhecer</h3>
@@ -25,7 +25,7 @@ function CycleSection() {
           <span className="text-verde-300">05:30 - 07:00</span>
         </div>
         <div className="grid gap-4 flex-1 bg-verde-900 p-6 sm:p-8 rounded-xl sm:translate-y-12 sm:hover:translate-y-10 transition-transform">
-          <div className="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <div className="neon size-10 flex items-center justify-center">
             <img src={meioDia} alt="" />
           </div>
           <h3 className="font-serif text-white text-2xl">Meio-dia</h3>
@@ -36,7 +36,7 @@ function CycleSection() {
           <span className="text-verde-300">12:00 - 14:00</span>
         </div>
         <div className="grid gap-4 flex-1 bg-verde-900 p-6 sm:p-8 rounded-xl sm:hover:-translate-y-2 transition-transform">
-          <div className="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <div className="neon size-10 flex items-center justify-center">
             <img src={anoitecer} alt="" />
           </div>
           <h3 className="font-serif text-white text-2xl">Anoitecer</h3>

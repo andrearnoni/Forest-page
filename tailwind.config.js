@@ -14,6 +14,10 @@ export default {
         "2xl": "4rem",
       },
     },
+    fontFamily: {
+      sans: ["DM Sans", "system-ui", "sans-serif"],
+      serif: ["DM Serif Text", "Georgia", "serif"],
+    },
     extend: {
       keyframes: {
         slideIn: {

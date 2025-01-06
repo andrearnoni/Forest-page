@@ -16,19 +16,19 @@ function ExperiencesSection() {
         <h2 className="mb-8 text-balance text-white text-3xl sm:text-4xl lg:text-5xl font-serif">
           Escolha Sua Próxima Aventura
         </h2>
-        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all">
+        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all">
           Observação Noturna
         </h3>
         <p className="mb-8 text-balance text-gray-400 pl-10">
           Explore a vida selvagem em seu habitat natural sob as estrelas.
         </p>
-        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all">
+        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all">
           Vida Selvagem
         </h3>
         <p className="mb-8 text-balance text-gray-400 pl-10">
           Observe a vida selvagem em seu habitat natural.
         </p>
-        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all">
+        <h3 className="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all">
           Canoagem
         </h3>
         <p className="mb-8 text-balance text-gray-400 pl-10">

@@ -24,18 +24,7 @@ function EventsSection() {
               Melhor período para observação astronômica. O céu estará claro e
               as estrelas visíveis.
             </p>
-            <a
-              className="
-            justify-self-start
-            self-end
-            bg-verde-400
-            text-verde-900
-            py-2
-            px-4
-            inline-block
-            rounded-full"
-              href="#contato"
-            >
+            <a className="btn justify-self-start self-end" href="#contato">
               Reservar 23/03
             </a>
           </div>
@@ -51,18 +40,7 @@ function EventsSection() {
               Melhor período para observação da aurora boreal, o céu estará
               iluminado pelas estrelas.
             </p>
-            <a
-              className="
-            justify-self-start
-            self-end
-            bg-verde-400
-            text-verde-900
-            py-2
-            px-4
-            inline-block
-            rounded-full"
-              href="#contato"
-            >
+            <a className="btn justify-self-start self-end" href="#contato">
               Reservar 15/04
             </a>
           </div>
@@ -78,18 +56,7 @@ function EventsSection() {
               Melhor período para observação da chuva de meteóros, o céu estará
               iluminado pelas estrelas.
             </p>
-            <a
-              className="
-            justify-self-start
-            self-end
-            bg-verde-400
-            text-verde-900
-            py-2
-            px-4
-            inline-block
-            rounded-full"
-              href="#contato"
-            >
+            <a className="btn justify-self-start self-end" href="#contato">
               Reservar 18/08
             </a>
           </div>
