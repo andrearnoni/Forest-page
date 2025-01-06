@@ -1,6 +1,6 @@
 import React from "react";
 import DateTimeComponent from "../components/DateTimeComponent";
-import NavDesktop from "../components/NavDesktop";
+import NavComponent from "../components/NavComponent";
 import Hero from "../components/Hero";
 import AccommodationSection from "../components/AccommodationSection";
 import EventsSection from "../components/EventsSection";
@@ -14,7 +14,7 @@ function Home() {
   return (
     <div>
       <DateTimeComponent />
-      <NavDesktop />
+      <NavComponent />
       <Hero />
       <AccommodationSection />
       <EventsSection />
