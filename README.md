@@ -4,7 +4,7 @@ Application that simulates a page of a hotel located in the middle of the forest
 
 ### Try
 
-Try here => https://forestexperience-page.vercel.app/
+Try here => <a href="https://forestexperience-page.vercel.app/" target="_blank">Clique aqui para abrir em uma nova aba</a>
 
 ### Demos
 
