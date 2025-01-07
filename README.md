@@ -10,12 +10,14 @@ Try here => <a href="https://forestexperience-page.vercel.app/" target="_blank">
 
 Desktop demo:
 
-![](https://i.imgur.com/aEyZYHG.gif)
+<p align="center">
+  <img src="./src/img/desktop.gif"><br><br>
+</p>
 
 Mobile demo:
 
 <p align="center">
-  <img src="https://i.imgur.com/XIVKHwp.gif">
+  <img src="./src/img/mobile.gif"><br><br>
 </p>
 
 <br>
